@@ -23,6 +23,10 @@ Los archivos CSS no tiene scope. Diferente a astro.
 
 Es recomendable crear un solo Css.
 
-en cada archivo se pude importar css.
+en cada archivo se pude importar css. En el build se unirán todos en un archivo.
 
 import './component.css' dentro de un archivo component.ts aplicará a todo el documento, utilizar anidamiento como si tuviéramos un solo css (no tiene scope)
+
+## NVM (Dos versiones Mac y Windows)
+
+Gestor de versiones de node.
