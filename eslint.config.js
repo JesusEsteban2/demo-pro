@@ -8,8 +8,9 @@ export default [
     { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
     pluginJs.configs.recommended,
     ...tseslint.configs.recommended,
-
-    // rules: {
-    //     "prefer-const": "warn"
-    // }
+    {
+        rules: {
+            'prefer-const': 'warn',
+        },
+    },
 ];
