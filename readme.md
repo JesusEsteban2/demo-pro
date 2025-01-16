@@ -41,13 +41,12 @@ En node, el separador -- indica que el parámetro (a continuación van para el e
 
 ejem
 
-jesusesteban@MBP-de-Jesus demo-pro % npm run lint -v  
+npm run lint -v  
+10.9.0
+npm -v  
 10.9.0
 
-jesusesteban@MBP-de-Jesus demo-pro % npm -v  
-10.9.0
-
-jesusesteban@MBP-de-Jesus demo-pro % npm run lint -- -v
+npm run lint -- -v
 
 > vite-project@0.0.0 lint
 > eslint -v
@@ -56,3 +55,16 @@ jesusesteban@MBP-de-Jesus demo-pro % npm run lint -- -v
 ## NVM (Dos versiones Mac y Windows)
 
 Gestor de versiones de node. Descargar e instalar en el equipo.
+
+## Despliegue
+
+Primero probar en local tanto dev como preview.
+
+Se despliega la carpeta dis, aunque lo normal es que se utilice un despliegue/integración automatizado (continuo) a partir del repositorio de desarrollo.
+CI/CD - Integración continua y despliegue continuo.
+
+Sitios gratis para despliegue continuo:
+
+-   Vercel(https://vercel.com/)
+-   Netlify (https://www.netlify.com/)
+-   AWS (https://aws.amazon.com/es/?nc2=h_lg)
